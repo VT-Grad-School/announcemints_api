@@ -54,19 +54,19 @@ events = Event.create([
   {
     title: 'Event is going on!1',
     description: 'hold the phone monika, we got this rollin\'!',
-    # contact: 'monika@example.com',
+    contact: 'monika@example.com',
     url: 'monika.example.com'
   },
   {
     title: 'Event is going on!2',
     description: 'hold the phone monika, we got this rollin\'!',
-    # contact: 'monika@example.com',
+    contact: 'monika@example.com',
     url: 'monika.example.com'
   },
   {
     title: 'Event is going on!3',
     description: 'hold the phone monika, we got this rollin\'!',
-    # contact: 'monika@example.com',
+    contact: 'monika@example.com',
     url: 'monika.example.com'
   }
 ])
