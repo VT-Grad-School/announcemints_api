@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  start_datetime: 2016-03-31 11:20:28
+  end_date: 2016-03-31
+  end_time: 2016-03-31 11:20:28
+  recurring: MyString
+  location: MyString
+  description: MyText
+  url: MyString
+
+two:
+  title: MyString
+  start_datetime: 2016-03-31 11:20:28
+  end_date: 2016-03-31
+  end_time: 2016-03-31 11:20:28
+  recurring: MyString
+  location: MyString
+  description: MyText
+  url: MyString

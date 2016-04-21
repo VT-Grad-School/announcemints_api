@@ -1,0 +1,2 @@
+class PostingType < ApplicationRecord
+end
