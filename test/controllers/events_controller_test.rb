@@ -12,7 +12,7 @@ class EventsControllerTest < ActionDispatch::IntegrationTest
 
   test "should create event" do
     assert_difference('Event.count') do
-      post events_url, params: { event: { description: @event.description, end_date: @event.end_date, end_time: @event.end_time, location: @event.location, recurring: @event.recurring, start_datetime: @event.start_datetime, title: @event.title, url: @event.url } }
+      post events_url, params: { event: { description: @event.description, end_date: @event.end_date, end_time: @event.end_time, location: @event.location, recurring: @event.recurring, title: @event.title, url: @event.url } }
     end
 
     assert_response 201
@@ -24,7 +24,7 @@ class EventsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update event" do
-    patch event_url(@event), params: { event: { description: @event.description, end_date: @event.end_date, end_time: @event.end_time, location: @event.location, recurring: @event.recurring, start_datetime: @event.start_datetime, title: @event.title, url: @event.url } }
+    patch event_url(@event), params: { event: { description: @event.description, end_date: @event.end_date, end_time: @event.end_time, location: @event.location, recurring: @event.recurring, title: @event.title, url: @event.url } }
     assert_response 200
   end
 
